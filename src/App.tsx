@@ -225,7 +225,21 @@ function App() {
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-16 text-center">
             {[
-             
+              { 
+                label: 'ENGAGEMENT GROWTH', 
+                value: '14%+', 
+                detail: 'Content & Campaign Optimization' 
+              },
+              { 
+                label: 'CONVERSION LIFT', 
+                value: '10%+', 
+                detail: 'A/B Testing & Funnel Analysis' 
+              },
+              { 
+                label: 'ANALYTICS TOOLKIT', 
+                value: 'SQL · GA4 · Tableau', 
+                detail: 'Python · Looker · Excel' 
+              }
             ].map((stat, index) => (
               <div key={index} className="bg-white p-6 rounded-sm shadow-sm border border-brown/10">
                 <div className="text-xs tracking-widest text-brown/70 mb-2">{stat.label}</div>
