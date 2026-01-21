@@ -225,9 +225,7 @@ function App() {
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-16 text-center">
             {[
-              { label: 'UPTIME SUPPORTED', value: '99%+', detail: 'Global SaaS + Ops' },
-              { label: 'AUTOMATION IMPACT', value: '45%', detail: 'Tier-1 deflection' },
-              { label: 'TOOLKIT', value: 'Python · SQL · AWS', detail: 'ServiceNow · Splunk' }
+             
             ].map((stat, index) => (
               <div key={index} className="bg-white p-6 rounded-sm shadow-sm border border-brown/10">
                 <div className="text-xs tracking-widest text-brown/70 mb-2">{stat.label}</div>
